@@ -1,4 +1,5 @@
 class Student < ActiveRecord::Base
-has_many :subjects
 belongs_to :school
+
+has_many :subjects
 end
